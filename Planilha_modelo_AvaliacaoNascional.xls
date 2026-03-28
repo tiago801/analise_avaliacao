@@ -1,0 +1,796 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>TIAGO VIEIRA</LastAuthor>
+  <LastSaved>2026-03-25T12:35:46Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>2510</WindowHeight>
+  <WindowWidth>9440</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Sheet1!R2C1:R2C20"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="35" ss:ExpandedRowCount="31" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:Width="214.5"/>
+   <Column ss:Index="8" ss:StyleID="s62" ss:Width="60"/>
+   <Column ss:StyleID="s62" ss:Width="50"/>
+   <Column ss:StyleID="s62" ss:Width="67.5"/>
+   <Column ss:StyleID="s62" ss:Width="69.5"/>
+   <Column ss:StyleID="s62" ss:Width="54.5"/>
+   <Column ss:StyleID="s62" ss:Width="75"/>
+   <Column ss:StyleID="s62" ss:Width="66"/>
+   <Column ss:StyleID="s62" ss:Width="75"/>
+   <Column ss:StyleID="s62" ss:Width="84.5"/>
+   <Column ss:StyleID="s62" ss:Width="77"/>
+   <Column ss:StyleID="s62" ss:Width="67.5"/>
+   <Column ss:StyleID="s62" ss:Width="77"/>
+   <Column ss:StyleID="s62" ss:Width="53"/>
+   <Column ss:StyleID="s68" ss:AutoFitWidth="0" ss:Span="14"/>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">80</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aluno</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Unidade</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Série</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Turma</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Atividade</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Data de inicio</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Data entrega</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Inglês </Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Arte</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Biologia</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Filosofia</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Física</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Geografia</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">História</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Literatura</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Matemática</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Português</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Química</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Sociologia</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Total</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Miguel Souza Macedo </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:22</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:22</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">74</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pedro Santos Zimermann </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:20</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:20</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">67</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sofia Cosendey Carvalho </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">64</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gustavo Chiapini Pereira </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:15</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:15</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">64</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">José Antonio Morteira Pereira Filho </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:14</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:14</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">64</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pedro Nogueira Azeredo </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">63</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Raphael Martins Leite Lima </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:37</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:37</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">63</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gabriel Daher Rocha Souza </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:16</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:16</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">60</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Gabriel Moreira Oliveira </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:21</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:21</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Maria Eduarda Ribeiro de Castro </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">57</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Matheus Casadio Devita </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">56</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gabriel Lima Pinheiro </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:19</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:19</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">56</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Betina Souza de Paula Ramos </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">54</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gustavo Games Pinheiro </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:20</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:20</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">53</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Emanuelle de Almeida Spagnolo Magalhães </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:20</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:20</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">53</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Luiggi Franco Torres </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:20</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:20</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Júlia Mendel Carvalhal </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:14</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:14</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Victor Pereira Terra </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:18</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:18</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">50</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Matheus Pereira Paz Rodrigues </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:37</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:37</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">48</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Valentina de Oliveira Rocha Pereira </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">47</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pietra Souza de Menezes </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:17</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:17</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Noah Robert Santiago </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:21</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:21</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lavínia Maria Rodrigues Ramos </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:17</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:18</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mel Gomes Miguel Nogueira </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">44</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Murilo Salvador Fernandes </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:14</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:14</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">43</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Lavínia Marino Lopes Barcelos </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:18</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">42</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Laura David Santiago </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:18</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:18</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Maria Eduarda Paiva Chagas Muzi de Souza </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:19</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-23 18:19</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gabriel Antonio Medina Vaz </Data></Cell>
+    <Cell><Data ss:Type="String">CEPRA</Data></Cell>
+    <Cell><Data ss:Type="String">ENSINO MÉDIO - 3ª SÉRIE</Data></Cell>
+    <Cell><Data ss:Type="String">3ª Série EM - 2026</Data></Cell>
+    <Cell><Data ss:Type="String">Avaliação Nacional 1</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-24 18:38</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=SUM(RC[-12]:RC[-1])"><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R2C1:R2C20"
+   xmlns="urn:schemas-microsoft-com:office:excel">
+  </AutoFilter>
+ </Worksheet>
+</Workbook>
